@@ -1,0 +1,32 @@
+/*styles.css*/
+
+body {
+	border: none;
+	padding: none;
+	margin: 0;
+}
+
+.profile-block {
+	height: 12em;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: none;
+	margin: 0;
+	display: inline-flex;
+	/*justify-content:center;*/
+	align-items: center;
+}
+
+.profile-picture {
+	height: 6em;
+	width: 6em;
+	margin-left: 4em;
+	margin-right: 4em;
+	border-radius: 5px;
+	border: solid 0.3em white;
+}
+
+.profile-name {
+	color: white;
+	font-size: 4em;
+}
